@@ -1,0 +1,20 @@
+20.09.2025  Segger Embeded Studio Src set:
+
+	Source\cmsis_compiler.h
+	Source\ore_cm3.h
+	Source\cmsis_version.h
+	Source\cmsis_gcc.h
+	Source\stm32f103xb.h
+	Source\system_stm32f10x.h
+	Source\stm32f10x.h
+	Source\STM32F1xx_OPT.s
+	Source\main.c
+	Source\system_stm32f10x.c
+
+	\STM32F1xx\Source\stm32f10x_md_Vectors.s
+	\System\SEGGER_THUMB_Startup.s
+	\System\Cortex_M_Startup.s
+
+	
+	pr0: BlupillSTM32F10 PC13 toggled.
+		
