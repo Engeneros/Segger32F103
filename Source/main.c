@@ -12,26 +12,30 @@ Purpose : Generic application start
 
 #include <stdio.h>
 #include "stm32f10x.h"
+#include "UART1.h"
+#include "GPIO.h"
 
 void InitAll( void)
 {
-  RCC->APB2ENR |= 0x1D;
+  RCC->APB2ENR |= 0x1D;// GPIO A & B & C  & AFIO  clock enable
+  RCC->APB2ENR |= 1 << 14; //UART1 clock enable
+  
 }
 
-void SetPortToOutput( GPIO_TypeDef* port, unsigned char pin )
-{
-  if (pin < 8)
-  {
-    port->CRL &= (unsigned int) ~(0xF << (pin * 4));
-    port->CRL |= (unsigned int) 3 << (pin *4);
-  }
-  else 
-  {
-    pin &= 7;
-    port->CRH &= (unsigned int) ~(0xF << (pin * 4));
-    port->CRH |= (unsigned int) 3 << (pin * 4); 
-  }
-}
+//void SetPortToOutput( GPIO_TypeDef* port, unsigned char pin )
+//{
+//  if (pin < 8)
+//  {
+//    port->CRL &= (unsigned int) ~(0xF << (pin * 4));
+//    port->CRL |= (unsigned int) 3 << (pin *4);
+//  }
+//  else 
+//  {
+//    pin &= 7;
+//    port->CRH &= (unsigned int) ~(0xF << (pin * 4));
+//    port->CRH |= (unsigned int) 3 << (pin * 4); 
+//  }
+//}
 //------------------------------------------------------------------------------
 
 void Delay( unsigned int Val) {
@@ -55,7 +59,7 @@ int main(void) {
     GPIOC->BSRR = 1<<13;
     Delay(3600000);
     GPIOC->BRR = 1 << 13;
-    Delay(250000);
+    Delay(260000);
   } while (1);
 }
 

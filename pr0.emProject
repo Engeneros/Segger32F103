@@ -70,7 +70,14 @@
       <file file_name="Setup/SEGGER_Flash.icf" />
     </folder>
     <folder Name="Source">
-      <file file_name="Source/main.c" />
+      <file file_name="Source/GPIO.c" />
+      <file file_name="Source/main.c">
+        <configuration
+          Name="Debug"
+          c_include_files=""
+          c_user_include_directories=". Source/" />
+      </file>
+      <file file_name="Source/UART1.c" />
     </folder>
     <folder Name="System">
       <file file_name="System/Cortex_M_Startup.s" />

@@ -64,12 +64,14 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="14" y="58" useTextEdit="1" path="Source/main.c" left="0" selected="1" top="35" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="C:/Program Files/SEGGER/SEGGER Embedded Studio 8.24/include/__SEGGER_RTL.h" left="0" top="383" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="18" useTextEdit="1" path="C:/Program Files/SEGGER/SEGGER Embedded Studio 8.24/include/__SEGGER_RTL_Arm_Conf.h" left="0" top="18" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="C:/Program Files/SEGGER/SEGGER Embedded Studio 8.24/include/__SEGGER_RTL_Conf.h" left="0" top="20" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="STM32F1xx/Source/stm32f10x_md_Vectors.s" left="0" top="244" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="4" y="66" useTextEdit="1" path="Source/stm32f10x.h" left="0" top="174" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="24" useTextEdit="1" path="Source/main.c" left="0" selected="1" top="3" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="STM32F1xx/Source/stm32f10x_md_Vectors.s" left="0" top="229" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="4" y="66" useTextEdit="1" path="Source/stm32f10x.h" left="0" top="66" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="pr0.emProject" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="21" y="0" useTextEdit="1" path="Source/UART1.c" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="11" useTextEdit="1" path="Source/GPIO.c" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="22" y="2" useTextEdit="1" path="Source/GPIO.h" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="Source/UART1.h" left="0" top="0" codecName="Default"/>
  </Files>
- <EMStudioWindow activeProject="pr0" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="D:/D/Prj/Bi25/Segger/pr0/Source" debugSearchPath="" autoConnectCapabilities="3711"/>
+ <EMStudioWindow activeProject="pr0" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="D:/D/Proj/DistrHall/SRSR.BPC/Segger32F103/Source" debugSearchPath="" autoConnectCapabilities="3199"/>
 </session>
